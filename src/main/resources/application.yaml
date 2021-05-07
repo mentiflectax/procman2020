@@ -1,7 +1,8 @@
 camunda.bpm:
   admin-user:
-    id: demo
-    password: demo
-    firstName: Demo
+    id: ${CAMUNDA_ADMIN_USER_ID}
+    password: ${CAMUNDA_ADMIN_USER_PASSWORD}
+    firstName: ${CAMUNDA_ADMIN_USER_FIRST_NAME}
+    lastName: ${CAMUNDA_ADMIN_USER_LAST_NAME}
   filter:
     create: All tasks
