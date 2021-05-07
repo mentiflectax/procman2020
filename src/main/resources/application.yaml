@@ -1,11 +1,5 @@
-camunda.bpm:
-  filter:
-    create: All tasks
-  database:
-    type: postgres
-com:
-  camunda:
-    datasource:
-      jdbc-url: ${POSTGRES_URL}
-      driverClassName: org.postgresql.Driver
-      poolName: camunda-pool
+# Select the profile here
+# Options:
+# 1. local-dev
+# 2. prod
+spring.profiles.active: 'prod'

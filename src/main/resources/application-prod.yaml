@@ -1,0 +1,11 @@
+camunda.bpm:
+  filter:
+    create: All tasks
+  database:
+    type: postgres
+com:
+  camunda:
+    datasource:
+      jdbc-url: ${POSTGRES_URL}
+      driverClassName: org.postgresql.Driver
+      poolName: camunda-pool

@@ -1,0 +1,9 @@
+camunda.bpm:
+  admin-user:
+    id: d
+    password: d
+    firstName: Demo
+  filter:
+    create: All tasks
+  database:
+    type: h2
