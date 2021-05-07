@@ -1,8 +1,11 @@
 camunda.bpm:
-  admin-user:
-    id: ${CAMUNDA_ADMIN_USER_ID}
-    password: ${CAMUNDA_ADMIN_USER_PASSWORD}
-    firstName: ${CAMUNDA_ADMIN_USER_FIRST_NAME}
-    lastName: ${CAMUNDA_ADMIN_USER_LAST_NAME}
   filter:
     create: All tasks
+  database:
+    type: postgres
+com:
+  camunda:
+    datasource:
+      jdbc-url: ${POSTGRES_URL}
+      driverClassName: org.postgresql.Driver
+      poolName: camunda-pool
