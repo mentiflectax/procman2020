@@ -6,7 +6,7 @@
 
     <groupId>com.dpisarenko</groupId>
     <artifactId>procman2020</artifactId>
-    <version>1.3</version>
+    <version>1.4</version>
 
     <properties>
         <camunda.spring-boot.version>7.15.0</camunda.spring-boot.version>
